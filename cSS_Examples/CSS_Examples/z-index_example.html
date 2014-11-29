@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head><title>z-index Demonstration</title>
+<style type="text/css">
+
+.overlap
+{
+    position: absolute; 
+    left: 0.5in; 
+    top: 0.5in;
+}
+
+.overlap1
+{
+    position: absolute; 
+    left: 19mm; 
+    top: 0.4in;
+}
+
+.overlap2
+{
+    position: absolute; 
+    left: 19mm; 
+    top: 0.4in;
+}
+
+</style>
+
+</head>
+<body>
+<h1><p>z-index demonstration</p></h1>
+
+<div class="overlap1" style="z-index: 1"><br/>
+<span style="color: red; font-size: 130px;">/</span>
+</div>
+
+<div class="overlap2" style="z-index: 3"><br/>
+<span style="color: red; font-size: 130px;">\</span>
+</div>
+
+<div class="overlap" style="z-index: 2">
+<span style="color: blue; font-size: 150px;">+</span>
+</div>
+
+
+</body>
+</html>
+
