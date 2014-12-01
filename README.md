@@ -1,4 +1,4 @@
 WebSiteTesting
 ==============
 
-Testing for HTML4 and HTML5
+Testing for HTML4 and converting files to HTML5
